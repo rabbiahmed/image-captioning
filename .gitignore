@@ -1,0 +1,24 @@
+# Python specific
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+env/
+venv/
+*.env
+.vscode/
+
+# IDE specific (e.g., PyCharm)
+.idea/
+
+# Project specific
+vocab.pkl
+cnn_rnn_checkpoints/
+
+# Test images that are not part of the dataset and might be user-specific
+test_images/
+
+# COCO annotation files are very large, exclude from Git directly
+annotations/
